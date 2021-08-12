@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -41,4 +43,11 @@ img {
     width: 8rem;
     height: auto;
     margin: 1rem;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    padding: 0rem;
+    margin: 2.5rem;
 }
