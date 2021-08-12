@@ -30,6 +30,6 @@ catButton.addEventListener('click', () => {
 document.addEventListener('keydown', (e) => {
   e.key === 'd' ? soundAndSubtitle(dogSound, '*baaaaaark*')
   : e.key === 'h' ? soundAndSubtitle(horseSound, '*ney ney*')
-  : e.key === 'c' ? soundAndSubtitle(catSound, `where's my knife?*`)
+  : e.key === 'c' ? soundAndSubtitle(catSound, `*where's my knife?*`)
   : animalCaption.textContent = 'hi';
 })
