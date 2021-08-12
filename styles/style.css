@@ -52,7 +52,7 @@ h1 {
     margin: 2.5rem;
 }
 
-@media (max-width: 43em) {
+@media (max-width: 40em) {
     .farm {
         width: 100%;
         height: auto;
