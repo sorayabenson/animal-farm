@@ -51,3 +51,18 @@ h1 {
     padding: 0rem;
     margin: 2.5rem;
 }
+
+@media (max-width: 43em) {
+    .farm {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
